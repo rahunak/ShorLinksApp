@@ -1,6 +1,6 @@
 # ShorLinksApp
 
-
+Laravel Framework 12.1.1  
 
 1.clone laravel from official repo, placed into application folder
 Copyed .env.sample to .env
@@ -13,17 +13,16 @@ docker-compose exec php sh
 cd /var/www/html
 composer install
 
-3.
-php artisan key:generate
+3.php artisan key:generate
 
 
-Additional steps for fresh installation:
-Go into DB container:
-docker-compose exec mysql sh
-Go into MySql
-mysql -uroot -proot
-create database laravel;
-php artisan migrate
+Additional steps for fresh installation:  
+Go into DB container:  
+docker-compose exec mysql sh  
+Go into MySql  
+mysql -uroot -proot  
+create database laravel;  
+php artisan migrate  
 
-Permissions in UNIX:
-sudo setfacl -R -m u:evgenyzaiko:rwx .
+Permissions in UNIX:  
+sudo setfacl -R -m u:evgenyzaiko:rwx .  
