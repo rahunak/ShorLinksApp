@@ -41,3 +41,6 @@ Create models:
 
 Rollback migration:
 php artisan migrate:rollback
+
+# tests Run:
+php artisan test
