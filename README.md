@@ -26,3 +26,9 @@ php artisan migrate
 
 Permissions in UNIX:  
 sudo setfacl -R -m u:evgenyzaiko:rwx .  
+
+
+## Useful algorithms for fresh devs
+
+php artisan make:controller DashboardController
+
