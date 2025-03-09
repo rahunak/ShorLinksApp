@@ -12,6 +12,7 @@ services:
       - ./application/:/var/www/html/
       - ./logs/nginx:/var/log/nginx/
     container_name: nginx
+
   php:
     build:
       context: .
@@ -24,6 +25,10 @@ services:
     container_name: php
     expose:
       - "9000"
+      - "5173"
+    ports:
+      - "5173:5173"
+
   mysql:
     container_name: db
     restart: always
