@@ -31,5 +31,13 @@ sudo setfacl -R -m u:evgenyzaiko:rwx .
 
 ## Useful algorithms for fresh devs
 
+Create controllers:
 php artisan make:controller DashboardController
 
+Create models:
+1. php artisan make:model ShortLink -m  
+2. modify model  
+3. php artisan migrate  
+
+Rollback migration:
+php artisan migrate:rollback
