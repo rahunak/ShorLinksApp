@@ -13,8 +13,7 @@
                                 {{ session('status') }}
                             </div>
                         @endif
-
-                        Здесь будут отображаться таблица с ссылками и формой.
+                        Use the Short Links page to create short links.
                     </div>
                 </div>
             </div>
