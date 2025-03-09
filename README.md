@@ -19,7 +19,8 @@ composer install
 Additional steps for fresh installation:  
 Go into DB container:  
 docker-compose exec mysql sh  
-Go into MySql  
+
+Go into MySql:  
 mysql -uroot -proot  
 create database laravel;  
 php artisan migrate  
